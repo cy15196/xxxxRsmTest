@@ -1,0 +1,25 @@
+version: build{build}
+
+branches:
+    except:
+    - project/travis
+image:
+#     - Visual Studio 2015
+    - Visual Studio 2017
+#     - Ubuntu
+    
+environment:
+    matrix:
+    - APPVEYOR_BUILD_WORKER_IMAGE: Visual Studio 2017
+      name: win32
+      platform: amd64_x86
+      qt: msvc2017
+      
+build_script: 
+  - call "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Auxiliary\Build\vcvarsall.bat" x86_amd64
+#   - set QTDIR=C:\Qt\Qt5.12.0\5.12.0\msvc2017_64  
+  - dir C:\Qt
+  - set QTDIR=C:\Qt\5.11.2\msvc2017_64
+  - set PATH=%PATH%;%QTDIR%\bin;
+  - qmake
+  - nmake & exit 0
