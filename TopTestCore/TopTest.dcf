@@ -1,0 +1,26 @@
+[State]
+DeviceType=LABEL,TopTestGx80
+SampleDelta=READ_SAMPLE_FREQUENCY,LABEL,2
+InternalTemputure=LABEL,30
+StartMode = LABEL , 0
+StartTemputure = LABEL , 40
+StartDelayTime = LABEL , 1
+DeviceTime = LABEL,00:00:00
+
+[PortData]
+1=LCD,0
+2=LCD,0
+3=LCD,0
+4=LCD,0
+5=LCD,0
+6=LCD,0
+7=LCD,0
+8=LCD,0
+
+[Set]
+SampleDeltaTime =SET_SAMPLE_FREQUENCY,LINEEDIT,2
+StartMode = SET_DEVICE_STARTMODE,COMBOBOX,0
+StartTemputure = SET_TEMPERATURE_STRAT_VALUE,LINEEDIT,40
+StartDelayTime=SET_DEVICE_STRAT_DELAY_TIME,LINEEDIT,1
+
+

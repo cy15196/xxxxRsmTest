@@ -1,0 +1,14 @@
+#ifndef TOPTESTWIDGETS_GLOBAL_H
+#define TOPTESTWIDGETS_GLOBAL_H
+
+#include <QtCore/qglobal.h>
+
+#if defined(TOPTESTWIDGETS_LIBRARY)
+#  define TOPTESTWIDGETSSHARED_EXPORT Q_DECL_EXPORT
+#else
+#  define TOPTESTWIDGETSSHARED_EXPORT Q_DECL_IMPORT
+#endif
+
+#include "toptestenum.h"
+
+#endif // TOPTESTWIDGETS_GLOBAL_H

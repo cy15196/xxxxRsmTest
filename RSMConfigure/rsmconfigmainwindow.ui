@@ -1,0 +1,826 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>RSMConfigMainWindow</class>
+ <widget class="QMainWindow" name="RSMConfigMainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1280</width>
+    <height>770</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>1280</width>
+    <height>720</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>RSM配置软件 0.0.1</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <layout class="QGridLayout" name="gridLayout_2">
+    <property name="leftMargin">
+     <number>0</number>
+    </property>
+    <property name="topMargin">
+     <number>0</number>
+    </property>
+    <property name="rightMargin">
+     <number>0</number>
+    </property>
+    <property name="bottomMargin">
+     <number>0</number>
+    </property>
+    <property name="spacing">
+     <number>0</number>
+    </property>
+    <item row="2" column="0">
+     <widget class="FormFramelessTitleBar" name="widget_titleBar" native="true">
+      <property name="maximumSize">
+       <size>
+        <width>16777215</width>
+        <height>80</height>
+       </size>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="0">
+     <widget class="QWidget" name="widget_content" native="true">
+      <layout class="QGridLayout" name="gridLayout">
+       <item row="2" column="0">
+        <widget class="QGroupBox" name="groupBox_setting">
+         <property name="title">
+          <string>硬件设置</string>
+         </property>
+         <layout class="QGridLayout" name="gridLayout_5">
+          <property name="leftMargin">
+           <number>0</number>
+          </property>
+          <property name="topMargin">
+           <number>0</number>
+          </property>
+          <property name="rightMargin">
+           <number>0</number>
+          </property>
+          <property name="bottomMargin">
+           <number>0</number>
+          </property>
+          <property name="spacing">
+           <number>0</number>
+          </property>
+          <item row="0" column="0">
+           <widget class="QTableWidget" name="tableWidget_settings">
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>325</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>16777215</width>
+              <height>325</height>
+             </size>
+            </property>
+            <property name="editTriggers">
+             <set>QAbstractItemView::NoEditTriggers</set>
+            </property>
+            <property name="selectionMode">
+             <enum>QAbstractItemView::SingleSelection</enum>
+            </property>
+            <property name="selectionBehavior">
+             <enum>QAbstractItemView::SelectRows</enum>
+            </property>
+            <attribute name="horizontalHeaderStretchLastSection">
+             <bool>true</bool>
+            </attribute>
+            <row>
+             <property name="text">
+              <string>仪器地址</string>
+             </property>
+            </row>
+            <row>
+             <property name="text">
+              <string>仪器识别码</string>
+             </property>
+            </row>
+            <row>
+             <property name="text">
+              <string>电池类型</string>
+             </property>
+            </row>
+            <row>
+             <property name="text">
+              <string>最大通道数</string>
+             </property>
+            </row>
+            <row>
+             <property name="text">
+              <string>最大测量温度</string>
+             </property>
+            </row>
+            <row>
+             <property name="text">
+              <string>冷端补偿调整</string>
+             </property>
+            </row>
+            <row>
+             <property name="text">
+              <string>热电偶类型</string>
+             </property>
+            </row>
+            <row>
+             <property name="text">
+              <string>仪器型号</string>
+             </property>
+            </row>
+            <row>
+             <property name="text">
+              <string>出厂日期</string>
+             </property>
+            </row>
+            <row>
+             <property name="text">
+              <string>出厂编号</string>
+             </property>
+            </row>
+            <row>
+             <property name="text">
+              <string>联系方式</string>
+             </property>
+            </row>
+            <column>
+             <property name="text">
+              <string>当前值</string>
+             </property>
+            </column>
+            <column>
+             <property name="text">
+              <string>预写入值</string>
+             </property>
+            </column>
+            <column>
+             <property name="text">
+              <string>操作按钮</string>
+             </property>
+            </column>
+            <column>
+             <property name="text">
+              <string>备注说明</string>
+             </property>
+            </column>
+            <item row="0" column="3">
+             <property name="text">
+              <string>仪器RTU通信识别地址 1-254</string>
+             </property>
+            </item>
+            <item row="1" column="3">
+             <property name="text">
+              <string>激活时需要写入其反码到激活地址</string>
+             </property>
+            </item>
+            <item row="2" column="3">
+             <property name="text">
+              <string>电池的类别</string>
+             </property>
+            </item>
+            <item row="3" column="3">
+             <property name="text">
+              <string>1-16，出厂标定硬件的通道数量</string>
+             </property>
+            </item>
+            <item row="4" column="3">
+             <property name="text">
+              <string>100.0-2000.0 摄氏度，温度超过此值时，温度值=2999.9，记为超范围</string>
+             </property>
+            </item>
+            <item row="5" column="3">
+             <property name="text">
+              <string>修正冷端温度传感器误差 -30.0 - 30.0</string>
+             </property>
+            </item>
+            <item row="6" column="3">
+             <property name="text">
+              <string>K，J，R，S，B，E，T，N</string>
+             </property>
+            </item>
+            <item row="7" column="3">
+             <property name="text">
+              <string>仪器型号，例如 GF40K</string>
+             </property>
+            </item>
+            <item row="8" column="3">
+             <property name="text">
+              <string>仪器的出厂时间</string>
+             </property>
+            </item>
+            <item row="9" column="3">
+             <property name="text">
+              <string>仪器的出厂编号</string>
+             </property>
+            </item>
+            <item row="10" column="3">
+             <property name="text">
+              <string>厂家信息</string>
+             </property>
+            </item>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item row="4" column="0">
+        <widget class="QGroupBox" name="groupBox_adjust">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="title">
+          <string>仪器校准</string>
+         </property>
+         <layout class="QGridLayout" name="gridLayout_6">
+          <property name="leftMargin">
+           <number>5</number>
+          </property>
+          <property name="topMargin">
+           <number>5</number>
+          </property>
+          <property name="rightMargin">
+           <number>5</number>
+          </property>
+          <property name="bottomMargin">
+           <number>5</number>
+          </property>
+          <property name="spacing">
+           <number>2</number>
+          </property>
+          <item row="1" column="0">
+           <widget class="QTableWidget" name="tableWidget_adjust">
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>90</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>16777215</width>
+              <height>90</height>
+             </size>
+            </property>
+            <property name="editTriggers">
+             <set>QAbstractItemView::NoEditTriggers</set>
+            </property>
+            <property name="selectionMode">
+             <enum>QAbstractItemView::SingleSelection</enum>
+            </property>
+            <property name="selectionBehavior">
+             <enum>QAbstractItemView::SelectRows</enum>
+            </property>
+            <attribute name="horizontalHeaderDefaultSectionSize">
+             <number>65</number>
+            </attribute>
+            <attribute name="horizontalHeaderStretchLastSection">
+             <bool>true</bool>
+            </attribute>
+            <row>
+             <property name="text">
+              <string>零点值</string>
+             </property>
+            </row>
+            <row>
+             <property name="text">
+              <string>满度值</string>
+             </property>
+            </row>
+            <column>
+             <property name="text">
+              <string>1</string>
+             </property>
+            </column>
+            <column>
+             <property name="text">
+              <string>2</string>
+             </property>
+            </column>
+            <column>
+             <property name="text">
+              <string>3</string>
+             </property>
+            </column>
+            <column>
+             <property name="text">
+              <string>4</string>
+             </property>
+            </column>
+            <column>
+             <property name="text">
+              <string>5</string>
+             </property>
+            </column>
+            <column>
+             <property name="text">
+              <string>6</string>
+             </property>
+            </column>
+            <column>
+             <property name="text">
+              <string>7</string>
+             </property>
+            </column>
+            <column>
+             <property name="text">
+              <string>8</string>
+             </property>
+            </column>
+            <column>
+             <property name="text">
+              <string>9</string>
+             </property>
+            </column>
+            <column>
+             <property name="text">
+              <string>10</string>
+             </property>
+            </column>
+            <column>
+             <property name="text">
+              <string>11</string>
+             </property>
+            </column>
+            <column>
+             <property name="text">
+              <string>12</string>
+             </property>
+            </column>
+            <column>
+             <property name="text">
+              <string>13</string>
+             </property>
+            </column>
+            <column>
+             <property name="text">
+              <string>14</string>
+             </property>
+            </column>
+            <column>
+             <property name="text">
+              <string>15</string>
+             </property>
+            </column>
+            <column>
+             <property name="text">
+              <string>16</string>
+             </property>
+            </column>
+            <column>
+             <property name="text">
+              <string>执行校准</string>
+             </property>
+            </column>
+           </widget>
+          </item>
+          <item row="0" column="0">
+           <widget class="QLabel" name="label_3">
+            <property name="text">
+             <string>校准说明：所有通道正负并联，输入相应的电压，点击对应的校准命令，执行校准 （连接线用普通导线，不要用补偿线）  零点校准：0mv , 满度值校准:76mv </string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item row="5" column="0">
+        <widget class="QGroupBox" name="groupBox_portValue">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="title">
+          <string>通道监控</string>
+         </property>
+         <layout class="QGridLayout" name="gridLayout_3">
+          <property name="leftMargin">
+           <number>2</number>
+          </property>
+          <property name="topMargin">
+           <number>2</number>
+          </property>
+          <property name="rightMargin">
+           <number>2</number>
+          </property>
+          <property name="bottomMargin">
+           <number>2</number>
+          </property>
+          <property name="spacing">
+           <number>2</number>
+          </property>
+          <item row="0" column="1">
+           <widget class="QPushButton" name="pushButton_refresh">
+            <property name="text">
+             <string>刷新</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="0">
+           <widget class="QCheckBox" name="checkBox_autoRefresh">
+            <property name="text">
+             <string>每秒自动刷新</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="2">
+           <spacer name="horizontalSpacer_3">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>40</width>
+              <height>20</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+          <item row="1" column="0" colspan="3">
+           <widget class="QTableWidget" name="tableWidget_portValue">
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>122</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>16777215</width>
+              <height>122</height>
+             </size>
+            </property>
+            <property name="editTriggers">
+             <set>QAbstractItemView::NoEditTriggers</set>
+            </property>
+            <property name="alternatingRowColors">
+             <bool>true</bool>
+            </property>
+            <property name="selectionMode">
+             <enum>QAbstractItemView::NoSelection</enum>
+            </property>
+            <attribute name="horizontalHeaderVisible">
+             <bool>false</bool>
+            </attribute>
+            <attribute name="horizontalHeaderDefaultSectionSize">
+             <number>73</number>
+            </attribute>
+            <attribute name="horizontalHeaderStretchLastSection">
+             <bool>true</bool>
+            </attribute>
+            <row>
+             <property name="text">
+              <string>通道序号</string>
+             </property>
+            </row>
+            <row>
+             <property name="text">
+              <string>AD值</string>
+             </property>
+            </row>
+            <row>
+             <property name="text">
+              <string>电压值</string>
+             </property>
+            </row>
+            <row>
+             <property name="text">
+              <string>温度值</string>
+             </property>
+            </row>
+            <column>
+             <property name="text">
+              <string>1</string>
+             </property>
+            </column>
+            <column>
+             <property name="text">
+              <string>2</string>
+             </property>
+            </column>
+            <column>
+             <property name="text">
+              <string>3</string>
+             </property>
+            </column>
+            <column>
+             <property name="text">
+              <string>4</string>
+             </property>
+            </column>
+            <column>
+             <property name="text">
+              <string>5</string>
+             </property>
+            </column>
+            <column>
+             <property name="text">
+              <string>6</string>
+             </property>
+            </column>
+            <column>
+             <property name="text">
+              <string>7</string>
+             </property>
+            </column>
+            <column>
+             <property name="text">
+              <string>8</string>
+             </property>
+            </column>
+            <column>
+             <property name="text">
+              <string>9</string>
+             </property>
+            </column>
+            <column>
+             <property name="text">
+              <string>10</string>
+             </property>
+            </column>
+            <column>
+             <property name="text">
+              <string>11</string>
+             </property>
+            </column>
+            <column>
+             <property name="text">
+              <string>12</string>
+             </property>
+            </column>
+            <column>
+             <property name="text">
+              <string>13</string>
+             </property>
+            </column>
+            <column>
+             <property name="text">
+              <string>14</string>
+             </property>
+            </column>
+            <column>
+             <property name="text">
+              <string>15</string>
+             </property>
+            </column>
+            <column>
+             <property name="text">
+              <string>16</string>
+             </property>
+            </column>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item row="6" column="0">
+        <spacer name="verticalSpacer">
+         <property name="orientation">
+          <enum>Qt::Vertical</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>20</width>
+           <height>40</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item row="0" column="0">
+        <widget class="QGroupBox" name="groupBox_link">
+         <property name="title">
+          <string>硬件连接</string>
+         </property>
+         <layout class="QGridLayout" name="gridLayout_4">
+          <property name="leftMargin">
+           <number>5</number>
+          </property>
+          <property name="topMargin">
+           <number>5</number>
+          </property>
+          <property name="rightMargin">
+           <number>5</number>
+          </property>
+          <property name="bottomMargin">
+           <number>5</number>
+          </property>
+          <property name="spacing">
+           <number>2</number>
+          </property>
+          <item row="0" column="3">
+           <widget class="QComboBox" name="comboBox_linkType"/>
+          </item>
+          <item row="0" column="1">
+           <widget class="QComboBox" name="comboBox_deviceChoose"/>
+          </item>
+          <item row="0" column="13">
+           <widget class="QLabel" name="label_activeState">
+            <property name="text">
+             <string>未知</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="0">
+           <widget class="QLabel" name="label">
+            <property name="text">
+             <string>端口选择</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="10">
+           <spacer name="horizontalSpacer">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>40</width>
+              <height>20</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+          <item row="0" column="9">
+           <widget class="QToolButton" name="toolButton_writeLock">
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>22</height>
+             </size>
+            </property>
+            <property name="text">
+             <string>打开写入权限</string>
+            </property>
+            <property name="checkable">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="0">
+           <widget class="QLabel" name="label_2">
+            <property name="text">
+             <string>硬件状态：</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="8">
+           <widget class="QLabel" name="label_lockState">
+            <property name="text">
+             <string>未知</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="7">
+           <widget class="QLabel" name="label_5">
+            <property name="text">
+             <string>仪器写入权限：</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="12">
+           <widget class="QLabel" name="label_4">
+            <property name="text">
+             <string>激活状态：</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="14">
+           <widget class="QToolButton" name="toolButtona_activeState">
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>22</height>
+             </size>
+            </property>
+            <property name="text">
+             <string>激活</string>
+            </property>
+            <property name="checkable">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="6">
+           <spacer name="horizontalSpacer_2">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>40</width>
+              <height>20</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+          <item row="1" column="12">
+           <widget class="QLabel" name="label_6">
+            <property name="text">
+             <string>芯片识别码：</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="13">
+           <widget class="QLabel" name="label_id">
+            <property name="text">
+             <string>未知</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="2">
+           <widget class="QLabel" name="label_7">
+            <property name="text">
+             <string>连接方式</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="1" colspan="6">
+           <widget class="QLabel" name="label_errorState">
+            <property name="text">
+             <string>未知</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="7">
+           <widget class="QLabel" name="label_8">
+            <property name="text">
+             <string>无线模式状态：</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="8">
+           <widget class="QLabel" name="label_wirelessState">
+            <property name="text">
+             <string>未知</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="9">
+           <widget class="QToolButton" name="toolButton_wirelessSwitch">
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>22</height>
+             </size>
+            </property>
+            <property name="text">
+             <string>打开无线模式</string>
+            </property>
+            <property name="checkable">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="10">
+           <widget class="QLabel" name="label_pcbTemp">
+            <property name="text">
+             <string>PcbTemp</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignCenter</set>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="4">
+           <widget class="QLabel" name="label_rtu">
+            <property name="text">
+             <string>RTU地址</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="5">
+           <widget class="QSpinBox" name="spinBox_rtu"/>
+          </item>
+         </layout>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <customwidgets>
+  <customwidget>
+   <class>FormFramelessTitleBar</class>
+   <extends>QWidget</extends>
+   <header location="global">formframelesstitlebar.h</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/DC"/>
+    <qresource prefix="/">
+        <file>TopTest.dcf</file>
+    </qresource>
+</RCC>

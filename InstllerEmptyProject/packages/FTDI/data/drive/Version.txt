@@ -1,0 +1,8 @@
+Title      : Communications:Augmentix GPS Mini-Card for XFR Driver
+Version    : A00-00
+OEM Name   : Augmentix
+OEM Ver    : A00-00
+Computers  : Latitude - XFR E6400, XT2 XFR
+Oses       : Factory ELI, Windows 7 32-bit Home Basic, Windows 7 32-bit Home Premium, Windows 7 32-bit Professional, Windows 7 32-bit Starter, Windows 7 32-bit Ultimate, Windows 7 64-bit Home Basic, Windows 7 64-bit Home Premium, Windows 7 64-bit Professional, Windows 7 64-bit Ultimate, Windows Vista 32-bit Business, Windows Vista 32-bit Home BasicWindows Vista 32-bit Home PremiumWindows Vista 64-bit BusinessWindows Vista 64-bit Home BasicWindows Vista 64-bit Home PremiumWindows Vista 64-bit UltimateWindows XP Home EditionWindows XP ProfessionalWindows XP Tablet PC EditionWindows XP x64 Professional Client
+Languages  : English
+Created    : Mon Apr 12 12:00:41 CDT 2010

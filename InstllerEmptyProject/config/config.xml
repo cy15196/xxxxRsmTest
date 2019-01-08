@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Installer>
+    <Name>Rsm炉温测试仪软件</Name>
+    <Version>1.0.0</Version>
+    <Title>Rsm炉温测试仪软件</Title>
+    <Publisher>苏州瑞斯密电子科技有限公司</Publisher>
+    <!-- Directory name is used in component.xml -->
+    <StartMenuDir>Rsm</StartMenuDir>
+    <TargetDir>@ApplicationsDir@/Rsm/RsmTempTest</TargetDir>
+    <RemoteRepositories>
+        <Repository>
+            <Enabled>1</Enabled>
+            <DisplayName>TopTest repository</DisplayName>
+            <Url>https://www.clabso.net.cn/download/QtIFWReposity/TopTest/</Url>
+        </Repository>
+    </RemoteRepositories>
+</Installer>

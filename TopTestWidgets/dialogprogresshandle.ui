@@ -1,0 +1,467 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>DialogProgressHandle</class>
+ <widget class="QDialog" name="DialogProgressHandle">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>668</width>
+    <height>564</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout_2">
+   <item row="2" column="1">
+    <widget class="QComboBox" name="comboBox_TimeUnit"/>
+   </item>
+   <item row="2" column="0">
+    <widget class="QLabel" name="label_3">
+     <property name="text">
+      <string>时间单位</string>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="0">
+    <widget class="QLabel" name="label">
+     <property name="text">
+      <string>工艺名称</string>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="1">
+    <widget class="QLineEdit" name="lineEdit_Name">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+    </widget>
+   </item>
+   <item row="3" column="0" colspan="5">
+    <layout class="QGridLayout" name="gridLayout">
+     <property name="spacing">
+      <number>0</number>
+     </property>
+     <item row="2" column="0" colspan="2">
+      <widget class="QTableWidget" name="tableWidget_PortChoose">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Minimum">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="minimumSize">
+        <size>
+         <width>0</width>
+         <height>62</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>16777215</width>
+         <height>62</height>
+        </size>
+       </property>
+       <property name="verticalScrollBarPolicy">
+        <enum>Qt::ScrollBarAlwaysOff</enum>
+       </property>
+       <property name="horizontalScrollBarPolicy">
+        <enum>Qt::ScrollBarAlwaysOff</enum>
+       </property>
+       <attribute name="horizontalHeaderVisible">
+        <bool>false</bool>
+       </attribute>
+       <attribute name="horizontalHeaderDefaultSectionSize">
+        <number>25</number>
+       </attribute>
+       <attribute name="horizontalHeaderStretchLastSection">
+        <bool>true</bool>
+       </attribute>
+       <attribute name="verticalHeaderVisible">
+        <bool>false</bool>
+       </attribute>
+       <attribute name="verticalHeaderStretchLastSection">
+        <bool>true</bool>
+       </attribute>
+       <row>
+        <property name="text">
+         <string>新建行</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>新建行</string>
+        </property>
+       </row>
+       <column>
+        <property name="text">
+         <string>新建列</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>新建列</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>新建列</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>新建列</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>新建列</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>新建列</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>新建列</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>新建列</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>新建列</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>新建列</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>新建列</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>新建列</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>新建列</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>新建列</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>新建列</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>新建列</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>新建列</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>新建列</string>
+        </property>
+       </column>
+       <item row="0" column="0">
+        <property name="text">
+         <string>热电偶</string>
+        </property>
+       </item>
+       <item row="0" column="2">
+        <property name="text">
+         <string>1</string>
+        </property>
+       </item>
+       <item row="0" column="3">
+        <property name="text">
+         <string>2</string>
+        </property>
+       </item>
+       <item row="0" column="4">
+        <property name="text">
+         <string>3</string>
+        </property>
+       </item>
+       <item row="0" column="5">
+        <property name="text">
+         <string>4</string>
+        </property>
+       </item>
+       <item row="0" column="6">
+        <property name="text">
+         <string>5</string>
+        </property>
+       </item>
+       <item row="0" column="7">
+        <property name="text">
+         <string>6</string>
+        </property>
+       </item>
+       <item row="0" column="8">
+        <property name="text">
+         <string>7</string>
+        </property>
+       </item>
+       <item row="0" column="9">
+        <property name="text">
+         <string>8</string>
+        </property>
+       </item>
+       <item row="0" column="10">
+        <property name="text">
+         <string>9</string>
+        </property>
+       </item>
+       <item row="0" column="11">
+        <property name="text">
+         <string>10</string>
+        </property>
+       </item>
+       <item row="0" column="12">
+        <property name="text">
+         <string>11</string>
+        </property>
+       </item>
+       <item row="0" column="13">
+        <property name="text">
+         <string>12</string>
+        </property>
+       </item>
+       <item row="0" column="14">
+        <property name="text">
+         <string>13</string>
+        </property>
+       </item>
+       <item row="0" column="15">
+        <property name="text">
+         <string>14</string>
+        </property>
+       </item>
+       <item row="0" column="16">
+        <property name="text">
+         <string>15</string>
+        </property>
+       </item>
+       <item row="0" column="17">
+        <property name="text">
+         <string>16</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+     <item row="1" column="0">
+      <widget class="QListWidget" name="listWidget_ProgressType">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>100</width>
+         <height>16777215</height>
+        </size>
+       </property>
+       <item>
+        <property name="text">
+         <string>升温时间</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>以上时间</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>降温时间</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>上升斜率</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>降温斜率</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>最大升温斜率</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>最高下降斜率</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>最大升温时间</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>测试有效时间</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>距离峰值区时间</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>回流时间</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>恒温时间</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>温度相对时间</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>峰值温度</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>探头名称和颜色</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+     <item row="0" column="0" colspan="2">
+      <widget class="FormHeaderTable" name="widget_HeaderTable" native="true">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="minimumSize">
+        <size>
+         <width>0</width>
+         <height>62</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>16777215</width>
+         <height>62</height>
+        </size>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="1">
+      <widget class="FormDataTable" name="widget_DataTable" native="true"/>
+     </item>
+    </layout>
+   </item>
+   <item row="0" column="0" colspan="2">
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <property name="spacing">
+      <number>0</number>
+     </property>
+     <item>
+      <widget class="QToolButton" name="toolButton_New">
+       <property name="text">
+        <string>新建</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QToolButton" name="toolButton_Save">
+       <property name="text">
+        <string>保存</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QToolButton" name="toolButton_Del">
+       <property name="text">
+        <string>删除</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item row="0" column="3" rowspan="3">
+    <widget class="QToolButton" name="toolButton_Pic">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="MinimumExpanding" vsizetype="Expanding">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="text">
+      <string>...</string>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="2">
+    <spacer name="horizontalSpacer">
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>40</width>
+       <height>20</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+  </layout>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>FormHeaderTable</class>
+   <extends>QWidget</extends>
+   <header location="global">formheadertable.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>FormDataTable</class>
+   <extends>QWidget</extends>
+   <header location="global">formdatatable.h</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>

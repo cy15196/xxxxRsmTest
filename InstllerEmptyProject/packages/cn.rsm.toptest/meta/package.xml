@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Package>
+    <DisplayName>Rsm炉温测试仪软件</DisplayName>
+    <Description>可执行文件</Description>
+    <Version>1.0.1</Version>
+    <ReleaseDate>2018-11-01</ReleaseDate>
+    <Default>true</Default>
+    <Script>installscript.js</Script>
+    <ForcedInstallation>true</ForcedInstallation>
+    <Licenses>
+        <License name="Rsm炉温测试仪软件 用户许可协议 (1.0)" file="Rsm1.0.lic"/>
+    </Licenses>
+</Package>

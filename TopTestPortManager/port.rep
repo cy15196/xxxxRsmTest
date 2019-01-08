@@ -1,0 +1,26 @@
+﻿#include <QtCore>
+
+POD Foo(QList<QString> bar);
+
+class Port
+{
+    PROP(QString activePort = "");
+    PROP(qint64 currentCmdTimeid = 0);
+    PROP(QStringList aviablePortList = {});
+
+    PROP(QString testCmd = "");
+    PROP(int bauderate = 500000);
+
+    SIGNAL(portDataReady(QByteArray))
+    SIGNAL(errorOccured(int,QString))
+    SIGNAL(beginWriteCmd(qint64,QByteArray))
+    SIGNAL(endWriteCmd(qint64,QByteArray))
+
+    SLOT(void addCommandToPort(qint64,QByteArray));
+    SLOT(void closeCurrentPort());
+    SLOT(void chooseActivePort(QString));
+    SLOT(void refreshAviablePortList());
+    SLOT(void changeTestCmd(QString));
+    SLOT(void changeBauderate(int));
+
+};

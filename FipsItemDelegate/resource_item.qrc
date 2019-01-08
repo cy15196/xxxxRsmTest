@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/img_vtk">
+        <file alias="colorBack">colorBack.png</file>
+    </qresource>
+</RCC>

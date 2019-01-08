@@ -1,0 +1,12 @@
+#ifndef LIBMODBUS_GLOBAL_H
+#define LIBMODBUS_GLOBAL_H
+
+#include <QtCore/qglobal.h>
+
+#if defined(LIBMODBUS_LIBRARY)
+#  define LIBMODBUSSHARED_EXPORT Q_DECL_EXPORT
+#else
+#  define LIBMODBUSSHARED_EXPORT Q_DECL_IMPORT
+#endif
+
+#endif // LIBMODBUS_GLOBAL_H

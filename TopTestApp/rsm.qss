@@ -1,0 +1,52 @@
+﻿/* === Shared === */
+QStackedWidget, QPushButton, QRadioButton, QCheckBox,
+QGroupBox, QStatusBar, QToolButton, QComboBox, QDialog, QMdiSubWindow,QTabWidget {
+    background-color: #edf2f7;
+}
+
+/* === QWidget === */
+QWidget:window {
+    background: #ffffff;
+}
+
+/* === QPushButton === */
+/*QPushButton
+{
+    border-style: transparent;
+    border-width: 3px;
+    border-radius: 6px;
+    border-color: rgba(255,255,255,75);
+    background-color:rgba(160, 180, 233, 127);
+}
+*/
+
+/* === QToolButton === */
+QToolButton
+{
+    border-style: transparent;
+    border-width: 2px;
+    border-radius: 8px;
+    border-color: rgba(255,255,255,75);
+    background-color:rgba(160, 180, 233, 127);
+}
+QToolButton:hover:enabled
+{
+    background-color:rgba(120, 120, 233, 255)
+}
+QToolButton:checked
+{
+    background-color:rgba(160, 233, 160, 127)
+}
+
+/* === QComboBox === */
+QComboBox
+{
+    min-height:20px;
+}
+QComboBox QAbstractItemView::item
+{
+    height: 25px;
+    min-height:20px;
+}
+
+

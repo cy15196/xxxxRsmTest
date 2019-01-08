@@ -1,0 +1,155 @@
+<RCC>
+    <qresource prefix="/img">
+        <file alias="splash">startup.png</file>
+        <file alias="welcome">welcome.png</file>
+        <file alias="device">device.png</file>
+        <file alias="data">data.png</file>
+        <file alias="data2">data2.png</file>
+        <file>chart.png</file>
+        <file>chart2.png</file>
+        <file>progress.png</file>
+        <file alias="paper">paper.png</file>
+        <file alias="paper2">paper2.png</file>
+        <file alias="paper3">paper3.png</file>
+        <file alias="setting">setting.png</file>
+        <file alias="monitor">monitor.png</file>
+        <file alias="global">global.png</file>
+        <file alias="cut">cut.png</file>
+        <file alias="print">print.png</file>
+        <file alias="open">open.png</file>
+        <file alias="redo">redo.png</file>
+        <file alias="undo">undo.png</file>
+        <file alias="new">new.png</file>
+        <file alias="edit">edit.png</file>
+    </qresource>
+    <qresource prefix="/">
+        <file>images/bg_beijing.png</file>
+        <file>images/bg_beijingkuang.png</file>
+        <file>images/btn_anniu.png</file>
+        <file>images/ic_chahua.png</file>
+        <file>images/ic_dangqianlianjieliebiao.png</file>
+        <file>images/ic_daohang.png</file>
+        <file>images/ic_kuang.png</file>
+        <file>images/ic_logo.png</file>
+        <file>images/ic_quxianfenxi.png</file>
+        <file>images/ic_shurukuang.png</file>
+        <file>images/ic_shuxian.png</file>
+        <file>images/ic_touxiang.png</file>
+        <file>images/ic_wuxian.png</file>
+        <file>images/ic_wuxianjiance.png</file>
+        <file>images/ic_xitongshezhi.png</file>
+        <file>images/ic_zaixianfenxi.png</file>
+        <file>images/bg_beijingkuangchenggong.png</file>
+        <file>images/ic_dangqianlianjieliebiaochnggong.png</file>
+        <file>images/ic_dengluchenggongchahua.png</file>
+        <file>images/ic_quxianfenxichenggong.png</file>
+        <file>images/ic_tuichu.png</file>
+        <file>images/ic_wuxianjiancechenggong.png</file>
+        <file>images/ic_xitongshezhichenggong.png</file>
+        <file>images/ic_zaixianfenxichenggong.png</file>
+        <file>images/bg_daohang.png</file>
+        <file>images/bg_tongdaobeijing.png</file>
+        <file>images/ic_arrowzhankai.png</file>
+        <file>images/ic_arrowzhedie.png</file>
+        <file>images/ic_bangzhu.png</file>
+        <file>images/ic_baocunwenjian.png</file>
+        <file>images/ic_beijing.png</file>
+        <file>images/ic_dayinshuchu.png</file>
+        <file>images/ic_duibifenxi.png</file>
+        <file>images/ic_fan.png</file>
+        <file>images/ic_fanhuishouye.png</file>
+        <file>images/ic_jiequfenxi.png</file>
+        <file>images/ic_kuangtuichu.png</file>
+        <file>images/ic_logode.png</file>
+        <file>images/ic_monifenxi.png</file>
+        <file>images/ic_qiehuanyingwen.png</file>
+        <file>images/ic_qiehuanyingwenshang.png</file>
+        <file>images/ic_sanjiaojiancha.png</file>
+        <file>images/ic_shanchuwenjian.png</file>
+        <file>images/ic_shezhiwenjianxuanze.png</file>
+        <file>images/ic_shishijiance.png</file>
+        <file>images/ic_shouyeer.png</file>
+        <file>images/ic_shujushuchu.png</file>
+        <file>images/ic_shujuxiazai.png</file>
+        <file>images/ic_shxian.png</file>
+        <file>images/ic_spk.png</file>
+        <file>images/ic_tongdaodingyi.png</file>
+        <file>images/ic_tongdaoyi.png</file>
+        <file>images/ic_weizhidingwei.png</file>
+        <file>images/ic_wenjianshezhi.png</file>
+        <file>images/ic_wenjianxinxi.png</file>
+        <file>images/ic_xixiangjiancha.png</file>
+        <file>images/ic_yanjingguanbi.png</file>
+        <file>images/ic_yanjingzhankai.png</file>
+        <file>images/ic_yidonghengxian.png</file>
+        <file>images/ic_yidongquxian.png</file>
+        <file>images/ic_yidongshuxian.png</file>
+        <file>images/ic_yidongwenqu.png</file>
+        <file alias="ic_en_US">images/ic_yingwen.png</file>
+        <file>images/ic_youlanqita.png</file>
+        <file>images/ic_zaixianjiankong.png</file>
+        <file alias="ic_zh_CN">images/ic_zhongwen.png</file>
+        <file>images/ic_zuocelankuang.png</file>
+        <file>images/.DS_Store</file>
+        <file>images/未标题-1.png</file>
+        <file>images/bg_beijingshouye.png</file>
+        <file>images/bg_zuobianlan.png</file>
+        <file>images/ic_dangqianlianjieliebiaoshouye.png</file>
+        <file>images/ic_daohangyeshouye.png</file>
+        <file>images/ic_guanbi.png</file>
+        <file>images/ic_guanbianniu.png</file>
+        <file>images/ic_logoshouye.png</file>
+        <file>images/ic_quxianfenxishouye.png</file>
+        <file>images/ic_xingxing.png</file>
+        <file>images/ic_xingxingdaohangxia.png</file>
+        <file>images/ic_xitongshezhishouye.png</file>
+        <file>images/ic_yincang.png</file>
+        <file>images/ic_yingjianshezhi.png</file>
+        <file>images/ic_zaixianjiankongshezhi.png</file>
+        <file>images/login_whole.png</file>
+        <file>images/曲线分析.jpg</file>
+        <file>images/首页画板 2.jpg</file>
+        <file>images/ic_home_dangqianlianjieliebiao.png</file>
+        <file>images/ic_home_quxianfenxi.png</file>
+        <file>images/ic_home_xitongshezhi.png</file>
+        <file>images/ic_home_yingjianshezhi.png</file>
+        <file>images/ic_home_zaixianjiankongshezhi.png</file>
+        <file>images/ic_dengluwancheng.png</file>
+        <file>images/ic_dengluzhihui.png</file>
+        <file>images/ic_shouye.png</file>
+        <file>images/ic_lineColor.png</file>
+        <file>images/ic_default.png</file>
+        <file>images/ic_baocunwenjiantubiao.png</file>
+        <file>images/ic_chanpinwenjiantubiao.png</file>
+        <file>images/ic_gongyiwenjiantubiao.png</file>
+        <file>images/ic_guanbilanse.png</file>
+        <file>images/ic_jindutiaozhong.png</file>
+        <file>images/ic_lianjiechenggongtubiao.png</file>
+        <file>images/ic_sanjiaoyou.png</file>
+        <file>images/ic_shanchuwenjiantubiao.png</file>
+        <file>images/ic_shangcahuntupain.png</file>
+        <file>images/ic_shangchauntupianda.png</file>
+        <file>images/ic_shebeitupian.png</file>
+        <file>images/ic_shebeiwenjiantubiao.png</file>
+        <file>images/ic_shezhishangsanjiao.png</file>
+        <file>images/ic_shezhishangsanxia.png</file>
+        <file>images/ic_shujushuchutubiao.png</file>
+        <file>images/ic_tongdaoshezhitanchuang.png</file>
+        <file>images/ic_tuichudenglutubiao.png</file>
+        <file>images/ic_weixuanzhongtubiao.png</file>
+        <file>images/ic_weixuanzhongyuan.png</file>
+        <file>images/ic_wuxianjiankongtubiao.png</file>
+        <file>images/ic_xiazaidaohang.png</file>
+        <file>images/ic_xuanzhongcahng.png</file>
+        <file>images/ic_xuanzhongxiaoguo.png</file>
+        <file>images/ic_xuanzhongxiaoguoduan.png</file>
+        <file>images/ic_xuanzhongyuan.png</file>
+        <file>images/ic_zaixianlianjiezhong.png</file>
+        <file>images/ic_zanwuyingjianlianjie.png</file>
+        <file>images/sanjiaoxia.png</file>
+        <file>images/pic_preview.png</file>
+    </qresource>
+    <qresource prefix="/qss">
+        <file>rsm.qss</file>
+    </qresource>
+</RCC>
